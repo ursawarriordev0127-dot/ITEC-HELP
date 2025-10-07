@@ -49,6 +49,13 @@
   transform: scale(1.1) rotate(5deg);
 }
 
+/* Hide logo image on mobile devices */
+@media (max-width: 503px) {
+  .logoText {
+    display: none;
+  }
+}
+
 .logoText {
   font-size: 1.8rem;
   font-weight: 800;
@@ -98,6 +105,8 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  white-space: nowrap;
+  flex-direction: row;
   animation: pulseGlow 2s infinite;
   box-shadow: 0 4px 20px rgba(244, 67, 54, 0.4);
   transition: all 0.3s ease;
