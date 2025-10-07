@@ -46,7 +46,7 @@ const FAQ = () => {
     <div>
       <Head>
         <title>FAQ - ITEC HELP | Frequently Asked Questions</title>
-        <meta name="description" content="Get answers to common questions about ITEC HELP's IT support and managed services. Learn about our pricing, support hours, cybersecurity, and more." />
+        <meta name="description" content="Get answers to common questions about ITEC HELP&apos;s IT support and managed services. Learn about our pricing, support hours, cybersecurity, and more." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -57,7 +57,7 @@ const FAQ = () => {
         {/* Header */}
         <div className={styles.faqHeader}>
           <span className={styles.faqBadge}>FREQUENTLY ASKED QUESTIONS</span>
-          <h1 className={styles.faqTitle}>Got Questions? We've Got Answers</h1>
+          <h1 className={styles.faqTitle}>Got Questions? We&apos;ve Got Answers</h1>
           <p className={styles.faqSubtitle}>Everything you need to know about our IT support and managed services for your business</p>
         </div>
 
@@ -80,7 +80,7 @@ const FAQ = () => {
                 <li><strong>Data Backup & Recovery</strong> - Automated backups with rapid disaster recovery</li>
                 <li><strong>IT Consulting & Strategy</strong> - Technology planning aligned with your business goals</li>
               </ul>
-              <p>With over 15 years of experience and 500+ businesses protected, we're your trusted IT partner.</p>
+              <p>With over 15 years of experience and 500+ businesses protected, we&apos;re your trusted IT partner.</p>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const FAQ = () => {
             <div className={styles.faqAnswer}>
               <p>We offer transparent, predictable pricing with no hidden fees. Typical investment ranges:</p>
               <p><strong>Per User Pricing:</strong> $80-$150 per user/month depending on service level and company size.</p>
-              <p><strong>What's Included:</strong></p>
+              <p><strong>What&apos;s Included:</strong></p>
               <ul>
                 <li>24/7 network and system monitoring</li>
                 <li>Unlimited help desk support during business hours</li>
@@ -191,7 +191,7 @@ const FAQ = () => {
               <p><strong>3. Migration:</strong> We seamlessly transfer your data, applications, and systems to platforms like Microsoft 365, Google Workspace, AWS, or Azure.</p>
               <p><strong>4. Training:</strong> We ensure your team knows how to effectively use the new cloud tools.</p>
               <p><strong>5. Ongoing Management:</strong> We monitor, optimize, and secure your cloud environment.</p>
-              <p><strong>Our Track Record:</strong> We've successfully migrated hundreds of businesses to the cloud with an average of <strong>zero data loss and less than 4 hours of downtime</strong>.</p>
+              <p><strong>Our Track Record:</strong> We&apos;ve successfully migrated hundreds of businesses to the cloud with an average of <strong>zero data loss and less than 4 hours of downtime</strong>.</p>
             </div>
           </div>
 
@@ -203,18 +203,18 @@ const FAQ = () => {
               <span className={styles.faqIcon}>+</span>
             </div>
             <div className={styles.faqAnswer}>
-              <p>Here's what sets us apart:</p>
+              <p>Here&apos;s what sets us apart:</p>
               <ul>
                 <li><strong>Proactive, Not Reactive:</strong> We prevent problems before they happen, not just fix them after</li>
                 <li><strong>15-Minute Response Time:</strong> Industry-leading response for critical issues</li>
                 <li><strong>Local Expertise:</strong> Based in Sydney with deep understanding of Australian businesses</li>
                 <li><strong>Certified Professionals:</strong> Microsoft, Cisco, and CompTIA certified technicians</li>
-                <li><strong>Transparent Pricing:</strong> No hidden fees or surprise charges - you know exactly what you're paying for</li>
+                <li><strong>Transparent Pricing:</strong> No hidden fees or surprise charges - you know exactly what you&apos;re paying for</li>
                 <li><strong>Business-Focused:</strong> We align technology with your business goals, not just fix computers</li>
                 <li><strong>99.9% Uptime Guarantee:</strong> We keep your business running smoothly</li>
                 <li><strong>Australian Data Storage:</strong> All backups stored in secure Australian data centers</li>
               </ul>
-              <p>Plus, we've been protecting businesses since 2008 with over 500 satisfied clients!</p>
+              <p>Plus, we&apos;ve been protecting businesses since 2008 with over 500 satisfied clients!</p>
             </div>
           </div>
 
@@ -245,7 +245,7 @@ const FAQ = () => {
                 <li>Best value for long-term partnerships</li>
                 <li>Locked-in pricing protection</li>
               </ul>
-              <p><strong>No Lock-in Philosophy:</strong> We're confident in our service quality, so we don't force lengthy contracts. We want to earn your business every month!</p>
+              <p><strong>No Lock-in Philosophy:</strong> We&apos;re confident in our service quality, so we don&apos;t force lengthy contracts. We want to earn your business every month!</p>
             </div>
           </div>
 
@@ -257,7 +257,7 @@ const FAQ = () => {
               <span className={styles.faqIcon}>+</span>
             </div>
             <div className={styles.faqAnswer}>
-              <p>We can typically have you fully up and running within <strong>1-2 weeks</strong>. Here's our onboarding timeline:</p>
+              <p>We can typically have you fully up and running within <strong>1-2 weeks</strong>. Here&apos;s our onboarding timeline:</p>
               <p><strong>Day 1-2:</strong> Initial consultation and IT assessment (free)</p>
               <p><strong>Day 3-5:</strong> Customized proposal and service agreement</p>
               <p><strong>Week 2:</strong> Onboarding process:</p>
@@ -269,7 +269,7 @@ const FAQ = () => {
                 <li>Train your team on support procedures</li>
               </ul>
               <p><strong>From Week 2 onwards:</strong> Full 24/7 monitoring and support begins!</p>
-              <p><strong>Emergency Situations:</strong> If you're experiencing a critical IT issue, we can provide emergency support immediately while we work on full onboarding.</p>
+              <p><strong>Emergency Situations:</strong> If you&apos;re experiencing a critical IT issue, we can provide emergency support immediately while we work on full onboarding.</p>
               <p><strong>Ready to get started?</strong> Call us today at <strong>(02) 8488 4429</strong> for your free assessment!</p>
             </div>
           </div>
@@ -282,10 +282,10 @@ const FAQ = () => {
               <span className={styles.faqIcon}>+</span>
             </div>
             <div className={styles.faqAnswer}>
-              <p>No problem! We're experienced in working with businesses transitioning from other arrangements:</p>
+              <p>No problem! We&apos;re experienced in working with businesses transitioning from other arrangements:</p>
               <p><strong>From Another IT Provider:</strong></p>
               <ul>
-                <li>We'll coordinate a smooth handover with minimal disruption</li>
+                <li>We&apos;ll coordinate a smooth handover with minimal disruption</li>
                 <li>Review existing systems and documentation</li>
                 <li>Identify any gaps or security vulnerabilities</li>
                 <li>Provide a clear transition plan with timelines</li>
@@ -304,7 +304,7 @@ const FAQ = () => {
                 <li>Upgrade outdated systems and software</li>
                 <li>Establish proper backup and disaster recovery</li>
               </ul>
-              <p>We'll work at your pace to ensure a seamless transition without disrupting your business operations.</p>
+              <p>We&apos;ll work at your pace to ensure a seamless transition without disrupting your business operations.</p>
             </div>
           </div>
         </div>
