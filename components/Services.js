@@ -37,6 +37,12 @@ const Services = () => {
       title: "IT Consulting & Strategy",
       description: "Strategic IT planning and consulting services that align your technology infrastructure with your business goals and growth plans.",
       link: "#contact"
+    },
+    {
+      icon: "💼",
+      title: "Website UX Design & Build",
+      description: "We design and develop user-friendly, responsive websites that look great, perform fast, and elevate your brand online.",
+      link: "#contact"
     }
   ]
 

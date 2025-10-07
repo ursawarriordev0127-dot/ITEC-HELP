@@ -24,6 +24,8 @@ const Footer = () => {
             <li><a href="#services">Help Desk</a></li>
             <li><a href="#services">Network Management</a></li>
             <li><a href="#services">Data Backup</a></li>
+            <li><a href="#services">IT Consulting</a></li>
+            <li><a href="#services">Website UX Design</a></li>
           </ul>
         </div>
 
