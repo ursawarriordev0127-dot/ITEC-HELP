@@ -30,7 +30,7 @@ const Header = () => {
           <div className={styles.logoImg}>
             ITEC<br />HELP
           </div>
-          <span className={styles.logoText}>ITEC HELP</span>
+          {/* <span className={styles.logoText}>ITEC HELP</span> */}
         </div>
 
         <ul className={`${styles.navLinks} ${mobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
