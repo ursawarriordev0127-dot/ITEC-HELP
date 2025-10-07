@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/Footer.module.css'
 
 const Footer = () => {
@@ -29,10 +30,10 @@ const Footer = () => {
         <div className={styles.footerSection}>
           <h4>Company</h4>
           <ul className={styles.footerLinks}>
-            <li><a href="/">Home</a></li>
-            <li><a href="/#services">Services</a></li>
-            <li><a href="/faq">FAQ</a></li>
-            <li><a href="/#contact">Contact</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/#services">Services</Link></li>
+            <li><Link href="/faq">FAQ</Link></li>
+            <li><Link href="/#contact">Contact</Link></li>
           </ul>
         </div>
 

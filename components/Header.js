@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 import styles from '../styles/Header.module.css'
 
 const Header = () => {
@@ -33,10 +34,10 @@ const Header = () => {
         </div>
 
         <ul className={`${styles.navLinks} ${mobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
-          <li><a href="/">Home</a></li>
-          <li><a href="/#services">Services</a></li>
-          <li><a href="/faq">FAQ</a></li>
-          <li><a href="/#contact">Contact</a></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/#services">Services</Link></li>
+          <li><Link href="/faq">FAQ</Link></li>
+          <li><Link href="/#contact">Contact</Link></li>
         </ul>
 
         <a href="tel:+61284884429" className={styles.emergencyCall}>
