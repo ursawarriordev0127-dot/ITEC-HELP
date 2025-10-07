@@ -1,0 +1,254 @@
+.faqSection {
+  background: #f5f5f5;
+  padding: 2rem;
+  min-height: 100vh;
+  padding-top: 8rem; /* Account for header */
+}
+
+.faqHeader {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+
+.faqBadge {
+  display: inline-block;
+  background: #fff3e0;
+  color: #e65100;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.faqTitle {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.faqSubtitle {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.faqContainer {
+  margin-top: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faqItem {
+  margin-bottom: 1rem;
+  border: 2px solid #f0f0f0;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faqItem.active {
+  border-color: #ff9800;
+  box-shadow: 0 5px 20px rgba(230, 81, 0, 0.1);
+}
+
+.faqItem:hover {
+  border-color: #ff9800;
+  box-shadow: 0 5px 20px rgba(230, 81, 0, 0.1);
+}
+
+.faqQuestion {
+  padding: 1.5rem;
+  background: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #1a1a1a;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.faqQuestion:hover {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.faqNumber {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #e65100, #ff9800);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.faqQuestionText {
+  flex: 1;
+}
+
+.faqIcon {
+  font-size: 1.5rem;
+  color: #e65100;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.faqItem.active .faqIcon {
+  transform: rotate(45deg);
+}
+
+.faqAnswer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  background: #fafafa;
+}
+
+.faqItem.active .faqAnswer {
+  max-height: 800px;
+  padding: 1.5rem;
+  border-top: 2px solid #fff3e0;
+}
+
+.faqAnswer p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.faqAnswer p:last-child {
+  margin-bottom: 0;
+}
+
+.faqAnswer strong {
+  color: #e65100;
+  font-weight: 700;
+}
+
+.faqAnswer ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.faqAnswer li {
+  color: #555;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.faqCta {
+  margin-top: 3rem;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #e65100 0%, #ff9800 100%);
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+
+.faqCta h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.faqCta p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaBtn {
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ctaBtnPrimary {
+  background: white;
+  color: #e65100;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.ctaBtnPrimary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.ctaBtnSecondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.ctaBtnSecondary:hover {
+  background: white;
+  color: #e65100;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .faqSection {
+    margin-top: 5.8rem;
+    padding: 2rem 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .faqTitle {
+    font-size: 2rem;
+  }
+
+  .faqQuestion {
+    font-size: 0.95rem;
+    padding: 1.2rem;
+  }
+
+  .faqNumber {
+    width: 28px;
+    height: 28px;
+    font-size: 0.8rem;
+  }
+
+  .faqCta {
+    padding: 2rem 1.5rem;
+  }
+
+  .faqCta h3 {
+    font-size: 1.5rem;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+  }
+
+  .ctaBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}
