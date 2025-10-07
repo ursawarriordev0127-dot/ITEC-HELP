@@ -70,6 +70,7 @@
   position: relative;
   transition: all 0.3s ease;
   font-size: 1.05rem;
+  cursor: pointer;
 }
 
 .navLinks a::after {

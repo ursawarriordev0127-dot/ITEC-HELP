@@ -34,7 +34,7 @@ const Header = () => {
         </div>
 
         <ul className={`${styles.navLinks} ${mobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
-          <li><Link href="/">Home</Link></li>
+          <li><Link href="/#home">Home</Link></li>
           <li><Link href="/#services">Services</Link></li>
           <li><Link href="/faq">FAQ</Link></li>
           <li><Link href="/#contact">Contact</Link></li>
