@@ -39,7 +39,7 @@ const Services = () => {
       link: "#contact"
     },
     {
-      icon: "💼",
+      icon: "🎨",
       title: "Website UX Design & Build",
       description: "We design and develop user-friendly, responsive websites that look great, perform fast, and elevate your brand online.",
       link: "#contact"
