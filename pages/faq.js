@@ -93,7 +93,7 @@ const FAQ = () => {
             </div>
             <div className={styles.faqAnswer}>
               <p>We offer transparent, predictable pricing with no hidden fees. Typical investment ranges:</p>
-              <p><strong>Per User Pricing:</strong> $80-$150 per user/month depending on service level and company size.</p>
+              <p><strong>Per User Pricing:</strong> $100-$150 per user/month depending on service level and company size.</p>
               <p><strong>What&apos;s Included:</strong></p>
               <ul>
                 <li>24/7 network and system monitoring</li>
@@ -116,7 +116,7 @@ const FAQ = () => {
               <span className={styles.faqIcon}>+</span>
             </div>
             <div className={styles.faqAnswer}>
-              <p><strong>Business Hours Support:</strong> Monday-Friday, 8:00 AM - 6:00 PM AEDT via phone, email, support portal, and live chat.</p>
+              <p><strong>Business Hours Support:</strong> Monday-Friday, 8:00 AM - 5:00 PM AEDT via phone and email.</p>
               <p><strong>Emergency Support:</strong> 24/7/365 emergency hotline for critical issues including server failures, network outages, and security breaches.</p>
               <p><strong>Response Times:</strong></p>
               <ul>

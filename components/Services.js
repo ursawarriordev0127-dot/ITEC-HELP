@@ -39,7 +39,7 @@ const Services = () => {
       link: "#contact"
     },
     {
-      icon: "🎨",
+      icon: "/images/icon.png",
       title: "Website UX Design & Build",
       description: "We design and develop user-friendly, responsive websites that look great, perform fast, and elevate your brand online.",
       link: "#contact"
@@ -59,7 +59,12 @@ const Services = () => {
       <div className={styles.servicesGrid}>
         {services.map((service, index) => (
           <div key={index} className={styles.serviceCard}>
-            <div className={styles.serviceIcon}>{service.icon}</div>
+            <div className={styles.serviceIcon}>
+              {service.icon.startsWith('/') ?
+                <img src={service.icon} alt={`${service.title} icon`} /> :
+                service.icon
+              }
+            </div>
             <h3>{service.title}</h3>
             <p>{service.description}</p>
             <a href="mailto:help@itechelp.com.au" className={styles.serviceLink}>
