@@ -13,7 +13,7 @@ export default function Home() {
         <title>ITEC HELP - Sydney&apos;s Premier IT Support & Managed Services | 24/7 Emergency Support</title>
         <meta name="description" content="Professional IT Support & Managed Services for SMBs in Sydney & NSW. Cybersecurity, Cloud Solutions, 24/7 Help Desk. Call (02) 8488 4429" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/logos/4.png" />
+        <link rel="icon" href="/images/logo.jpg" />
       </Head>
 
       <div className={styles.heroBackground}>
